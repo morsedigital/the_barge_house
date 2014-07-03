@@ -1,0 +1,45 @@
+.wrap {
+  section {
+    &.menu {
+      li {
+        float: right;
+        width: 100%;
+
+        .menu_item {
+          float: left;
+          margin-right: 18.52%;
+          width: 70.37%;
+        }
+
+        .price {
+          float: right;
+          width: 11.11%;
+        }
+      }
+
+      .column {
+        float: left;
+        margin-right: 5.49%;
+        width: 29.67%;
+
+        &.three {
+          float: right;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .divider {
+    width: 15%;
+  }
+
+  .main_content {
+    background: image_url("ie/white.png") 0 0 repeat;
+    margin-top: 120px;
+
+    .panel_content {
+      padding: 40px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.hero {
+  // layout
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  // styling
+  background: image_url("bg.jpg") 0 0 no-repeat transparent;
+  background-size: cover;
+}
+
+section {
+  &.menu {
+    em {
+      color: $blue;
+      font-weight: bold;
+    }
+
+    h2 {
+      // layout
+      margin-bottom: 30px;
+      padding-bottom: 15px;
+      text-align: center;
+
+      // styling
+      border-bottom: 1px solid lighten($black, 40%);
+    }
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    .price {
+      text-align: right;
+    }
+
+    .sharing {
+      text-align: right;
+    }
+  }
+}

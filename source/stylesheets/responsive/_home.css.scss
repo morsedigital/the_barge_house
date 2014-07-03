@@ -1,0 +1,155 @@
+// Put responsive style rules here
+
+.wrap {
+  // Mobile breakpoint
+  @include at-breakpoint($m_max_cols $tp_break) {
+    section {
+      &.introduction {
+        h1 {
+          font-size: 2.5em;
+        }
+      }
+
+      &.menu {
+        li {
+          @include span-columns($m_max_cols omega, $m_max_cols);
+
+          .menu_item {
+            @include span-columns(3, $m_max_cols);
+          }
+
+          .price {
+            @include span-columns(1 omega, $m_max_cols);
+          }
+        }
+
+        .column {
+          @include span-columns($m_max_cols omega, $m_max_cols);
+
+          &.three {
+            margin-bottom: 0;
+          }
+
+          margin-bottom: 50px;
+        }
+      }
+    }
+
+    .divider {
+      width: 50%;
+    }
+
+    .main_content {
+      margin-top: 10px;
+
+      .panel_content {
+        padding: 20px;
+      }
+    }
+  }
+
+  // Tablet portrait breakpoint
+  @include at-breakpoint($tp_break +1px $tp_max_cols $d_break) {
+    section {
+      &.menu {
+        li {
+          @include span-columns($tp_max_cols / 2 omega, $tp_max_cols / 2);
+
+          .menu_item {
+            @include span-columns(3, $tp_max_cols / 2);
+          }
+
+          .price {
+            @include span-columns(2 omega, $tp_max_cols / 2);
+          }
+
+          .sharing {
+            @include span-columns(3 omega, $tp_max_cols / 2);
+          }
+        }
+
+        .column {
+          &.one, &.two {
+            @include span-columns($tp_max_cols / 2, $tp_max_cols);
+          }
+
+          &.two {
+            @include omega;
+          }
+
+          &.three {
+            @include span-columns($tp_max_cols omega, $tp_max_cols);
+            margin-top: 50px;
+
+            li {
+              @include span-columns($tp_max_cols omega, $tp_max_cols);
+
+              .menu_item {
+                @include span-columns(9, $tp_max_cols);
+              }
+
+              .price {
+                @include span-columns(1 omega, $tp_max_cols);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .divider {
+      width: 30%;
+    }
+
+    .main_content {
+      margin-top: 100px;
+
+      .panel_content {
+        padding: 40px;
+      }
+    }
+  }
+
+  // Desktop breakpoint
+  @include at-breakpoint($d_break + 1px, $d_max_cols) {
+    section {
+      &.menu {
+        li {
+          @include span-columns(4 omega, 4);
+
+          .menu_item {
+            @include span-columns(3, 4);
+          }
+
+          .price {
+            @include span-columns(1 omega, 4);
+          }
+
+          .sharing {
+            @include span-columns(3 omega, 4);
+          }
+        }
+
+        .column {
+          @include span-columns($d_max_cols / 3, $d_max_cols);
+
+          &.three {
+            @include omega;
+          }
+        }
+      }
+    }
+
+    .divider {
+      width: 15%;
+    }
+
+    .main_content {
+      margin-top: 120px;
+
+      .panel_content {
+        padding: 40px;
+      }
+    }
+  }
+}

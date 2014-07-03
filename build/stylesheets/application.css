@@ -1,0 +1,338 @@
+/* line 1, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+body {
+  color: #444;
+  font-family: "Open Sans Condensed";
+  font-weight: 300; }
+
+/* line 8, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+header.main {
+  -webkit-box-shadow: 0 0 10px 0 black;
+  -moz-box-shadow: 0 0 10px 0 black;
+  box-shadow: 0 0 10px 0 black;
+  background: #95111f; }
+/* line 13, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+header li {
+  float: left;
+  overflow: hidden; }
+  /* line 17, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+  header li a {
+    display: block;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+    text-decoration: none; }
+    /* line 29, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+    header li a:hover {
+      background: #870f1c;
+      color: #e6e6e6; }
+/* line 36, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+header .panel_content {
+  padding: 0 10px; }
+
+/* line 41, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+.center {
+  text-align: center; }
+
+/* line 45, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+.clearfix {
+  *zoom: 1; }
+  /* line 8, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_mixins.css.scss */
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  /* line 13, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_mixins.css.scss */
+  .clearfix:after {
+    clear: both; }
+
+/* line 49, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+.divider {
+  float: none;
+  margin: 0 auto; }
+  /* line 53, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+  .divider img {
+    max-width: 100%; }
+
+/* line 58, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+.hidden {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px; }
+
+/* line 62, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+.main_content {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  background: rgba(255, 255, 255, 0.9); }
+
+/* line 67, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+.panel_content {
+  *zoom: 1; }
+  /* line 8, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_mixins.css.scss */
+  .panel_content:before, .panel_content:after {
+    content: "";
+    display: table; }
+  /* line 13, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_mixins.css.scss */
+  .panel_content:after {
+    clear: both; }
+
+/* line 71, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_base.css.scss */
+.wrap {
+  *zoom: 1;
+  max-width: 1120px;
+  _width: 1120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 38, /Users/ianhatton/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .wrap:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* 20px */
+/* line 5, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_typography.css.scss */
+h1, .alpha {
+  font-size: 3.375em;
+  /* 54px */
+  line-height: 1.44em; }
+
+/* line 10, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_typography.css.scss */
+h2, .beta {
+  font-size: 2.875em;
+  /* 46px */
+  line-height: 1.130em; }
+
+/* line 15, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_typography.css.scss */
+h3, .gamma {
+  font-size: 2.5em;
+  /* 40px */
+  line-height: 1.3em; }
+
+/* line 20, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_typography.css.scss */
+li, p, .eta {
+  font-size: 1.25em;
+  line-height: 1.3em;
+  /* 26px */ }
+
+/* line 25, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/common/_typography.css.scss */
+.gv {
+  font-family: "Great Vibes"; }
+
+/* line 1, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/specific/_home.css.scss */
+.hero {
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: url("/images/bg.jpg") 0 0 no-repeat transparent;
+  background-size: cover; }
+
+/* line 17, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/specific/_home.css.scss */
+section.menu em {
+  color: #5f7398;
+  font-weight: bold; }
+/* line 22, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/specific/_home.css.scss */
+section.menu h2 {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-bottom: 1px solid #aaaaaa; }
+/* line 32, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/specific/_home.css.scss */
+section.menu li {
+  margin-bottom: 20px; }
+/* line 36, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/specific/_home.css.scss */
+section.menu .price {
+  text-align: right; }
+/* line 40, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/styles/specific/_home.css.scss */
+section.menu .sharing {
+  text-align: right; }
+
+@media (max-width: 480px) {
+  /* line 16, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_breakpoints.css.scss */
+  .wrap {
+    max-width: 1120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 38, /Users/ianhatton/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    .wrap:after {
+      content: "";
+      display: table;
+      clear: both; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  /* line 16, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_breakpoints.css.scss */
+  .wrap {
+    max-width: 1120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 38, /Users/ianhatton/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    .wrap:after {
+      content: "";
+      display: table;
+      clear: both; } }
+@media (min-width: 769px) {
+  /* line 16, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_breakpoints.css.scss */
+  .wrap {
+    max-width: 1120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 38, /Users/ianhatton/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    .wrap:after {
+      content: "";
+      display: table;
+      clear: both; } }
+
+@media (max-width: 480px) {
+  /* line 8, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.introduction h1 {
+    font-size: 2.5em; }
+  /* line 14, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.menu li {
+    width: 100%;
+    float: right;
+    margin-right: 0; }
+    /* line 17, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu li .menu_item {
+      width: 70.37037%;
+      float: left;
+      margin-right: 18.51852%; }
+    /* line 21, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu li .price {
+      width: 11.11111%;
+      float: right;
+      margin-right: 0; }
+  /* line 26, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.menu .column {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    margin-bottom: 50px; }
+    /* line 29, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu .column.three {
+      margin-bottom: 0; }
+  /* line 38, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap .divider {
+    width: 50%; }
+  /* line 42, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap .main_content {
+    margin-top: 10px; }
+    /* line 45, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap .main_content .panel_content {
+      padding: 20px; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  /* line 55, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.menu li {
+    width: 100%;
+    float: right;
+    margin-right: 0; }
+    /* line 58, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu li .menu_item {
+      width: 54.28571%;
+      float: left;
+      margin-right: 14.28571%; }
+    /* line 62, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu li .price {
+      width: 31.42857%;
+      float: right;
+      margin-right: 0; }
+    /* line 66, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu li .sharing {
+      width: 54.28571%;
+      float: right;
+      margin-right: 0; }
+  /* line 72, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.menu .column.one, .wrap section.menu .column.two {
+    width: 46.66667%;
+    float: left;
+    margin-right: 6.66667%; }
+  /* line 76, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.menu .column.two {
+    float: right;
+    margin-right: 0; }
+  /* line 80, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.menu .column.three {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    margin-top: 50px; }
+    /* line 84, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu .column.three li {
+      width: 100%;
+      float: right;
+      margin-right: 0; }
+      /* line 87, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+      .wrap section.menu .column.three li .menu_item {
+        width: 89.33333%;
+        float: left;
+        margin-right: 6.66667%; }
+      /* line 91, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+      .wrap section.menu .column.three li .price {
+        width: 4%;
+        float: right;
+        margin-right: 0; }
+  /* line 100, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap .divider {
+    width: 30%; }
+  /* line 104, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap .main_content {
+    margin-top: 100px; }
+    /* line 107, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap .main_content .panel_content {
+      padding: 40px; } }
+@media (min-width: 769px) {
+  /* line 117, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.menu li {
+    width: 100%;
+    float: right;
+    margin-right: 0; }
+    /* line 120, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu li .menu_item {
+      width: 70.37037%;
+      float: left;
+      margin-right: 18.51852%; }
+    /* line 124, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu li .price {
+      width: 11.11111%;
+      float: right;
+      margin-right: 0; }
+    /* line 128, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu li .sharing {
+      width: 70.37037%;
+      float: right;
+      margin-right: 0; }
+  /* line 133, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap section.menu .column {
+    width: 29.67033%;
+    float: left;
+    margin-right: 5.49451%; }
+    /* line 136, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap section.menu .column.three {
+      float: right;
+      margin-right: 0; }
+  /* line 143, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap .divider {
+    width: 15%; }
+  /* line 147, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+  .wrap .main_content {
+    margin-top: 120px; }
+    /* line 150, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/responsive/_home.css.scss */
+    .wrap .main_content .panel_content {
+      padding: 40px; } }

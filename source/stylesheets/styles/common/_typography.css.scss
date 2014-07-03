@@ -1,0 +1,27 @@
+// Typography variables
+
+$base_font_size: 1.25em; /* 20px */
+
+h1, .alpha {
+  font-size: 3.375em; /* 54px */
+  line-height: 1.44em;
+}
+
+h2, .beta {
+  font-size: 2.875em; /* 46px */
+  line-height: 1.130em;
+}
+
+h3, .gamma {
+  font-size: 2.5em; /* 40px */
+  line-height: 1.3em;
+}
+
+li, p, .eta {
+  font-size: $base_font_size;
+  line-height: 1.3em; /* 26px */
+}
+
+.gv {
+  font-family: "Great Vibes";
+}

@@ -1,0 +1,32 @@
+/* line 4, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/application_ie.css.scss */
+.wrap section.menu li {
+  float: right;
+  width: 100%; }
+  /* line 8, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/application_ie.css.scss */
+  .wrap section.menu li .menu_item {
+    float: left;
+    margin-right: 18.52%;
+    width: 70.37%; }
+  /* line 14, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/application_ie.css.scss */
+  .wrap section.menu li .price {
+    float: right;
+    width: 11.11%; }
+/* line 20, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/application_ie.css.scss */
+.wrap section.menu .column {
+  float: left;
+  margin-right: 5.49%;
+  width: 29.67%; }
+  /* line 25, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/application_ie.css.scss */
+  .wrap section.menu .column.three {
+    float: right;
+    margin-right: 0; }
+/* line 33, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/application_ie.css.scss */
+.wrap .divider {
+  width: 15%; }
+/* line 37, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/application_ie.css.scss */
+.wrap .main_content {
+  background: url("/images/ie/white.png") 0 0 repeat;
+  margin-top: 120px; }
+  /* line 41, /Volumes/1TB_Drive/Sites/the_barge_house/source/stylesheets/application_ie.css.scss */
+  .wrap .main_content .panel_content {
+    padding: 40px; }

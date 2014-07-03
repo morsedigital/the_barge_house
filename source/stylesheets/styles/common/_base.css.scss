@@ -1,0 +1,73 @@
+body {
+  color: #444;
+  font-family: "Open Sans Condensed";
+  font-weight: 300;
+}
+
+header {
+  &.main {
+    @include box-shadow(0 0 10px 0 #000);
+    background: $red;
+  }
+
+  li {
+    float: left;
+    overflow: hidden;
+
+    a {
+      // layout
+      display: block;
+      height: 100%;
+      padding: 20px;
+      width: 100%;
+
+      // styling
+      @include transition(all 0.2s ease-in-out);
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        background: darken($red, 3%);
+        color: darken(#fff, 10%);
+      }
+    }
+  }
+
+  .panel_content {
+    padding: 0 10px;
+  }
+}
+
+.center {
+  @include center;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.divider {
+  float: none;
+  margin: 0 auto;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.hidden {
+  @include hidden;
+}
+
+.main_content {
+  @include transition(all 2s ease-in-out);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.panel_content {
+  @include clearfix;
+}
+
+.wrap {
+  @include container;
+}

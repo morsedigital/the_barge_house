@@ -1,0 +1,31 @@
+// Breakpoint variables
+
+// Desktop breakpoint and maximum columns to use
+$d_break: 768px;
+$d_max_cols: 12;
+
+// Mobile breakpoint and maximum columns to use
+$m_break: 225px;
+$m_max_cols: 4;
+
+// Tablet portrait breakpoint and maximum columns to use
+$tp_break: 480px;
+$tp_max_cols: 10;
+
+// This will set the break points for the entire site
+.wrap {
+  // Mobile breakpoint
+  @include at-breakpoint($m_max_cols $tp_break) {
+    @include container;
+  }
+
+  // Tablet portrait breakpoint
+  @include at-breakpoint($tp_break +1px $tp_max_cols $d_break) {
+    @include container;
+  }
+
+  // Desktop breakpoint
+  @include at-breakpoint($d_break + 1px, $d_max_cols) {
+    @include container;
+  }
+}

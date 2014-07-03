@@ -1,6 +1,6 @@
 WebFontConfig = {
   google: { 
-    families: [ 'Oswald:700:latin', 'Open+Sans:300:latin', 'Open+Sans+Condensed:300:latin' ]
+    families: [ 'Great+Vibes::latin', 'Open+Sans+Condensed:300:latin' ]
   }
 };
 

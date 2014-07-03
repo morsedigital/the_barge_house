@@ -1,48 +1,100 @@
 ---
-title: Welcome to Middleman
+title: The Barge House
 ---
 
-%section.landing.introduction
+%header.main
   .wrap
-    %header
-      %p
-        %span
-          Hi, I'm Ian.
-        I'm a front-end web developer based in London, with over 3 years experience.
-        .center.clearfix
-          = link_to(content_tag(:span, "Blah", class: "hidden"), "#", class: "entypo-down-circled icon")
+    .panel_content
+      %ul
+        %li= link_to "Home", "/"
 
-    %section.work
-      %h1.entypo-keyboard See my work
-      %small Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, est, optio, amet, perferendis cupiditate inventore.
+.hero
+  .wrap
 
-    %section.skillset
-      %h1 See my skill set.
-      %small It's huge, really.
+.wrap
+  .main_content
+    %section.introduction
+      .panel_content.center
+        %h1.gv The Barge House, Haggerston
+        %h2.eta A Fresh House on the Canal
 
-    %section.contact.last
-      %h1.entypo-chat Get in touch
-      %small I'd like that.
+    .divider
+      = image_tag("divider.png", alt: "Divider" )
 
-%section.landing.abs
-  .wrap.entypo-pencil
-    %header
-      %p
-        %span
-          This is my craft.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, eaque numquam ex cupiditate voluptatum quos voluptas.
-    %section.about
-      .content_left
-        %h1 About me
-        %p
-          Morbi rutrum, elit ac fermentum egestas, tortor ante vestibulum est, eget scelerisque nisl velit eget tellus. Fusce porta facilisis luctus. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis. Mauris porta odio eu risus scelerisque id facilisis ipsum dictum.
-          %br
-          %br
-          Vitae volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar neque eu purus sollicitudin et sollicitudin dui ultricies. Maecenas cursus auctor tellus sit amet blandit. Maecenas a erat ac nibh molestie interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lorem enim, ultricies sed sodales id, convallis molestie ipsum. Morbi eget dolor ligula. Vivamus accumsan rutrum nisi nec elementum. Pellentesque at nunc risus. Phasellus ullamcorper bibendum varius.
-      .content_right
-        %h1 Skills
-        %p Blah
-        %br
-        %p HTML
-        %br
-        %p CSS
+    %section.menu
+      .panel_content
+        .column.one
+          %h2.gv.gamma Grazing Boards
+          %ul
+            %li
+              .sharing
+                For 1:
+                %em 9.50
+                %br
+                For 2:
+                %em 18.00
+            %li
+              Andalucian charcuterie:
+              %br
+              Jamon Iberico, chorizo, smoked black pudding & peppered salami
+            %li
+              Andalucian cheeses:
+              %br
+              Curado Oveja in rosemary, Oveja paprika, Dona Manuela & Membrillo
+            %li
+              .menu_item
+                Grilled Asparagus, oyster mushrooms & tomato Provençale
+              %em.price
+                12.00
+        .column.two
+          %h2.gv.gamma Bites at the bar
+          %ul
+            %li
+              .menu_item
+                Grilled Asparagus with chopped egg & paprika sauce
+              %em.price
+                6.00
+            %li
+              .menu_item
+                Tomato Provençale crostini
+              %em.price
+                3.00
+            %li
+              .menu_item
+                Bavette open sandwich served with salad
+              %em.price
+                9.50
+            %li
+              .menu_item
+                Scallops with cauliflower puree, caper and raison sauce
+              %em.price
+                8.50
+            %li
+              .menu_item
+                Feta, steak and Rocket salad
+              %em.price
+                7.00
+        .column.three
+          %h2.gv.gamma After 5pm
+          %ul
+            %li
+              .menu_item
+                Baked Mackerel with new potatoes mash with saffron sauce
+              %em.price
+                8.50
+            %li
+              .menu_item
+                Bavette steak served with new potatoes or salad
+              %em.price
+                12.50
+            %li
+              .menu_item
+                Cauliflower steak served on cauliflower puree with basil, pesto
+              %em.price
+                6.50
+            %li
+              .menu_item
+                Dark, dirty & delicious Mousse au chocolate
+              %em.price
+                4.50
+            

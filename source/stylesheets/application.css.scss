@@ -1,6 +1,10 @@
 @import "compass",
         "responsive/susy_settings",
         "susy",
-        "styles/mixins",
-        "styles/base",
-        "styles/typography";
+        "styles/common/colours",
+        "styles/common/mixins",
+        "styles/common/base",
+        "styles/common/typography",
+        "styles/specific/home",
+        "responsive/breakpoints",
+        "responsive/home";

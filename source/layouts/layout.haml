@@ -8,9 +8,8 @@
     %title= current_page.data.title || "The Middleman"
     = stylesheet_link_tag "reset", "application"
     /[if lt IE 9]
-      =javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js", async:""
-      =javascript_include_tag "html5shiv-printshiv", async:""
-      =stylesheet_link_tag "application-ie8", media: "screen"
+      = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js", async:""
+      = stylesheet_link_tag "application_ie", media: "screen"
     = javascript_include_tag "all"
     
 
